@@ -1,0 +1,6 @@
+This is a placeholder `proj.db` file for v0.1.0 packaging.
+
+Replace it by running:
+  PROJ_DB_URL="<direct URL to a pinned proj.db artifact>" npm run download:projdb
+
+

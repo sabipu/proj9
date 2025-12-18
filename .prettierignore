@@ -1,0 +1,7 @@
+dist/
+node_modules/
+*.tgz
+data/proj.db
+pnpm-lock.yaml
+
+
