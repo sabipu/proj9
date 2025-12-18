@@ -1,5 +1,5 @@
 {
-  "name": "proj9",
+  "name": "proj9-js",
   "version": "0.1.0",
   "description": "Experimental JavaScript port inspired by PROJ 9 (initial: EPSG:4326 <-> EPSG:3857).",
   "license": "MIT",
@@ -34,16 +34,22 @@
     "release:patch": "npm version patch && git push --follow-tags",
     "release:minor": "npm version minor && git push --follow-tags",
     "release:major": "npm version major && git push --follow-tags",
-    "publish:npm": "npm publish --access public"
+    "publish:npm": "npm publish --access public",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@types/node": "^25.0.3",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.3.5",
+    "@semantic-release/npm": "^12.0.1",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^16.5.0",
     "prettier": "^3.7.4",
     "rimraf": "^6.1.2",
+    "semantic-release": "^24.2.0",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.0",

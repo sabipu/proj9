@@ -10,13 +10,13 @@ Experimental JavaScript/TypeScript port inspired by PROJ 9 semantics.
 ### Install
 
 ```bash
-npm i proj9
+npm i proj9-js
 ```
 
 ### Usage
 
 ```ts
-import { transform, createTransformer, getBundledProjDbPath } from "proj9";
+import { transform, createTransformer, getBundledProjDbPath } from "proj9-js";
 
 const xy = transform("EPSG:4326", "EPSG:3857", [180, 0]);
 const ll = transform("EPSG:3857", "EPSG:4326", xy);
