@@ -3,6 +3,14 @@
   "version": "0.1.2",
   "description": "Experimental JavaScript port inspired by PROJ 9 (initial: EPSG:4326 <-> EPSG:3857).",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabipu/proj9"
+  },
+  "bugs": {
+    "url": "https://github.com/sabipu/proj9/issues"
+  },
+  "homepage": "https://github.com/sabipu/proj9#readme",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
