@@ -1,6 +1,6 @@
 {
   "name": "proj9-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Experimental JavaScript port inspired by PROJ 9 (initial: EPSG:4326 <-> EPSG:3857).",
   "license": "MIT",
   "repository": {
